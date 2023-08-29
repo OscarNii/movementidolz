@@ -42,18 +42,40 @@ class TravelTheme {
         fontWeight: FontWeight.w400,
         color: Colors.grey,
       ),
-      bodyText1: GoogleFonts.montserrat(
+      bodyLarge: GoogleFonts.montserrat(
         fontSize: 14,
         fontWeight: FontWeight.w500,
-
       ),
-      bodyText2  : GoogleFonts.montserrat(
+      bodyText2: GoogleFonts.montserrat(
         fontSize: 14,
         fontWeight: FontWeight.w400,
-
       ),
       headline6: GoogleFonts.montserrat(
         fontSize: 20,
+        fontWeight: FontWeight.w500,
+      ),
+       headline5: GoogleFonts.montserrat(
+        fontSize: 24,
+        fontWeight: FontWeight.w500,
+
+      ),
+       headline4: GoogleFonts.montserrat(
+        fontSize: 29,
+        fontWeight: FontWeight.w500,
+
+      ),
+       headline3: GoogleFonts.montserrat(
+        fontSize: 32,
+        fontWeight: FontWeight.w500,
+
+      ),
+       headline2: GoogleFonts.montserrat(
+        fontSize: 20,
+        fontWeight: FontWeight.w500,
+
+      ),
+       headline1: GoogleFonts.montserrat(
+        fontSize: 40,
         fontWeight: FontWeight.w500,
 
       ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 extension TextThemeStylesX on BuildContext{
-TextStyle get bodyText1 => Theme.of(this).textTheme.bodyText1!;
+TextStyle get bodyText1 => Theme.of(this).textTheme.bodyLarge!;
 TextStyle get bodyText2 => Theme.of(this).textTheme.bodyText2!;
 TextStyle get subtitle1 => Theme.of(this).textTheme.subtitle1!;
 TextStyle get subtitle2 => Theme.of(this).textTheme.subtitle2!;
