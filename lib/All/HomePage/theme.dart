@@ -23,15 +23,25 @@ class TravelTheme {
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
           backgroundColor: Color(0xff202053),
         ),
-        textTheme: TextTheme,
+        textTheme: textTheme,
       );
 
-static TextTheme get textTheme(
-  return TextTheme(
-    caption: GoogleFonts.montserrat(
-      
-    )
-  )
-)
-
+  static TextTheme get textTheme {
+    return TextTheme(
+      caption: GoogleFonts.montserrat(
+        fontSize: 12,
+        fontWeight: FontWeight.w400,
+        color: Colors.grey,
+      ),
+      subtitle1: GoogleFonts.montserrat(
+        fontSize: 16,
+        fontWeight: FontWeight.w500,
+      ),
+      subtitle2: GoogleFonts.montserrat(
+        fontSize: 16,
+        fontWeight: FontWeight.w400,
+        color: Colors.grey,
+      ),
+    );
+  }
 }
